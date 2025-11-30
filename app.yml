@@ -7,10 +7,10 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com:collins-b/gitops.git
+    repoURL: https://github.com/collins-b/aws-k8s-ci.git
     targetRevision: HEAD
   destination: 
-    server: https://110A07327404374C29B4AE0184E6C40F.yl4.eu-west-2.eks.amazonaws.com
+    server: "https://kubernetes.default.svc"
     namespace: myapp
 
   syncPolicy:
